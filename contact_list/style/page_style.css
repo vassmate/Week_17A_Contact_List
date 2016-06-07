@@ -1,0 +1,48 @@
+html {
+    background: url(background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1 {
+    letter-spacing: 10px;
+    font-weight: 500;
+    font-family: "Lato", sans-serif;
+}
+
+.contacts {
+    font-family: "Lato", sans-serif;
+    letter-spacing: 2px;
+}
+
+ul {
+    padding: 0;
+    list-style: none outside;
+    border: solid 1px;
+    max-width: 300px;
+}
+
+li#firstName, li#lastName {
+    text-align: left;
+    margin-left: 10px;
+}
+
+li#firstName {
+    margin-top: 10px;
+}
+
+li#lastName {
+    margin-bottom: 10px;
+}
+
+li#city, li#address, li#email, li#phone {
+    font-size: 12px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+li#phone {
+    margin-bottom: 10px;
+}
